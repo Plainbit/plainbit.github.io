@@ -1,8 +1,8 @@
 ﻿{
-  "version": "1.0.0.3",
-  "releaseDate": "2024-06-26",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.0.3.msi",
+  "version": "1.0.0.4",
+  "releaseDate": "2024-06-27",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.0.4.msi",
   "changelog": [
-    "1.0.0.3 버전: 많은 수정 사항 자세한 내용은 github에"
+    "1.0.0.4 버전: Search 기능 추가 및 기타 버그 수정"
   ]
 }
