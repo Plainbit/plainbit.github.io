@@ -1,8 +1,8 @@
 ﻿{
-  "version": "1.0.0.4",
-  "releaseDate": "2024-06-27",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.0.4.msi",
+  "version": "1.0.0.5",
+  "releaseDate": "2024-07-02",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.0.5.msi",
   "changelog": [
-    "1.0.0.4 버전: Search 기능 추가 및 기타 버그 수정"
+    "1.0.0.5 버전: Dashboard 관리 기능 추가"
   ]
 }
