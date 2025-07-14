@@ -1,8 +1,8 @@
 ﻿{
-  "version": "1.0.0.6",
+  "version": "1.0.0.7",
   "releaseDate": "2024-07-11",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.0.6.msi",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.0.7.exe",
   "changelog": [
-    "1.0.0.6 버전: Dashboard testWidget 추가"
+    "1.0.0.7 버전: 포터블 버전으로 개발"
   ]
 }
