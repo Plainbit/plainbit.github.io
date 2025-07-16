@@ -1,8 +1,8 @@
 ﻿{
-  "version": "1.0.0.7",
-  "releaseDate": "2024-07-11",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.0.7.exe",
+  "version": "1.0.0.8",
+  "releaseDate": "2024-07-16",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.0.8.exe",
   "changelog": [
-    "1.0.0.7 버전: 포터블 버전으로 개발"
+    "1.0.0.8 버전: 도커블 컴포넌트 개선"
   ]
 }
