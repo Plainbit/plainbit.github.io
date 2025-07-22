@@ -1,8 +1,8 @@
 ﻿{
-  "version": "1.0.0.9",
-  "releaseDate": "2024-07-16",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.0.9.exe",
+  "version": "1.0.1.0",
+  "releaseDate": "2024-07-22",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.1.0.exe",
   "changelog": [
-    "1.0.0.9 버전: 임시 expire 루틴 추가 "
+    "1.0.1.0 버전: Dashboard 기능 고도화 (저장 , 불러오기)"
   ]
 }
