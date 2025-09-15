@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.1.5",
-  "releaseDate": "2024-09-08",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.1.5.exe",
+  "version": "1.0.1.6",
+  "releaseDate": "2024-09-15",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.1.6.exe",
   "changelog": [
-    "1.0.1.5 버전: bar chart 추가" , "UI 사용성 개선"
+    "1.0.1.6 버전: 검색 기능 고도화" , "차트 컴포넌트 업데이트"
   ],
-  "licenseKey": "FACT-TEST-1234-5678-9ABE"
+  "licenseKey": "FACT-TEST-1234-5678-9ABD"
 }
