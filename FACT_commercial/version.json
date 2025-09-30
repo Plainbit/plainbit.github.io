@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.1.7",
-  "releaseDate": "2024-09-19",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.1.7.exe",
+  "version": "1.0.1.8",
+  "releaseDate": "2024-09-30",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.1.8.exe",
   "changelog": [
-    "1.0.1.7 버전: 긴급 패치 : 메모리 헤제 관련 사이드 이펙트 긴급 수정 " , "차트 컴포넌트 업데이트 ,  Document 내 검색 로직 개선 "
+    "1.0.1.8 버전:  " , "UI 사용선 개선 "
   ],
   "licenseKey": "FACT-TEST-1234-5678-9ABD"
 }
