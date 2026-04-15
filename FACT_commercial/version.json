@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.1.11",
-  "releaseDate": "2024-12-22",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.1.11.exe",
+  "version": "1.0.1.14",
+  "releaseDate": "2026-04-15",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.1.14.exe",
   "changelog": [
-    "1.0.1.11 버전:  " , "UI 사용선 개선 "
+    "1.0.1.14 버전:  " , "AI 사용성 개선"
   ],
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
 }
