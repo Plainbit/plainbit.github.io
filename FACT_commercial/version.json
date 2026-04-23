@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.1.15",
-  "releaseDate": "2026-04-15",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.1.15.exe",
+  "version": "1.0.1.16",
+  "releaseDate": "2026-04-23",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.1.16.exe",
   "changelog": [
-    "1.0.1.15 버전:  " , "AI 사용성 개선 LLM 추론 안정성 관련 패치 적용"
+    "1.0.1.16 버전:  " , "Timeline 위젯 추가"
   ],
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
 }
