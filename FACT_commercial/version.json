@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.1.16",
-  "releaseDate": "2026-04-23",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.1.16.exe",
+  "version": "1.0.2.0",
+  "releaseDate": "2026-04-24",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.2.0.exe",
   "changelog": [
-    "1.0.1.16 버전:  " , "Timeline 위젯 추가"
+    "1.0.2.0 버전:  " , "테이블 다국어 처리 수정"
   ],
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
 }
