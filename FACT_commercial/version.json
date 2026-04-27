@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.2.0",
-  "releaseDate": "2026-04-24",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.2.0.exe",
+  "version": "1.0.2.1",
+  "releaseDate": "2026-04-27",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.2.1.exe",
   "changelog": [
-    "1.0.2.0 버전:  " , "테이블 다국어 처리 수정"
+    "1.0.2.1 버전:  " , "Avalonia 컴퍼넌트 업데이트"
   ],
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
 }
