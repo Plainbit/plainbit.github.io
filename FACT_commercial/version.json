@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.2.1",
-  "releaseDate": "2026-04-27",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.2.1.exe",
+  "version": "1.0.2.2",
+  "releaseDate": "2026-04-30",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.2.2.exe",
   "changelog": [
-    "1.0.2.1 버전:  " , "Avalonia 컴퍼넌트 업데이트"
+    "1.0.2.2 버전:  " , "Avalonia 컴퍼넌트 업데이트에 의한 Side Effect 수정"
   ],
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
 }
