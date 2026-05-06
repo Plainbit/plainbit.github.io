@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.2.2",
-  "releaseDate": "2026-04-30",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.2.2.exe",
+  "version": "1.0.2.3",
+  "releaseDate": "2026-05-06",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.2.3.exe",
   "changelog": [
-    "1.0.2.2 버전:  " , "Avalonia 컴퍼넌트 업데이트에 의한 Side Effect 수정"
+    "1.0.2.3 버전:  " , "메뉴 Dashboard Templates 기능 추가"
   ],
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
 }
