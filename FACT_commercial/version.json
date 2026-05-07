@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.2.3",
-  "releaseDate": "2026-05-06",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.2.3.exe",
+  "version": "1.0.2.4",
+  "releaseDate": "2026-05-07",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.2.4.exe",
   "changelog": [
-    "1.0.2.3 버전:  " , "메뉴 Dashboard Templates 기능 추가"
+    "1.0.2.4 버전:  " , "새로운 DB schema 적용"
   ],
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
 }
