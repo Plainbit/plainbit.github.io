@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.2.5",
-  "releaseDate": "2026-05-12",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.2.5.exe",
+  "version": "1.0.2.6",
+  "releaseDate": "2026-05-14",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.2.6.exe",
   "changelog": [
-    "1.0.2.5 버전:  " , "타임라인 UI 개선 및 사용성 개선"
+    "1.0.2.6 버전:  " , "AI 관련 파라미터 전달 속성 개선 및 사용성 개선"
   ],
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
 }
