@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.2.7",
-  "releaseDate": "2026-05-18",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.2.7.exe",
+  "version": "1.0.2.8",
+  "releaseDate": "2026-05-26",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.2.8.exe",
   "changelog": [
-    "1.0.2.7 버전:  " , "위젯 속성 저장및 불러오기 오류 수정"
+    "1.0.2.8 버전:  " , "UI 사용성 개선및 Dashboard 직렬화 개선 "
   ],
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
 }
