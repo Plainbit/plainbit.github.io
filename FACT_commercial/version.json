@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.2.8",
-  "releaseDate": "2026-05-26",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.2.8.exe",
+  "version": "1.0.2.9",
+  "releaseDate": "2026-06-02",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.2.9.exe",
   "changelog": [
-    "1.0.2.8 버전:  " , "UI 사용성 개선및 Dashboard 직렬화 개선 "
+    "1.0.2.9 버전:  " , "Document 성능 개선 및 Theme Settings 추가"
   ],
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
 }
