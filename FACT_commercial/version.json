@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.2.10",
-  "releaseDate": "2026-06-05",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.2.10.exe",
+  "version": "1.0.3.0",
+  "releaseDate": "2026-06-10",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.3.0.exe",
   "changelog": [
-    "1.0.2.10 버전:  " , "Chating Room Widget media preview 기능 추가 "
+    "1.0.3.0 버전:  " , "Chating Room Widget media preview 기능 고도화 및 UI 수정 "
   ],
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
 }
