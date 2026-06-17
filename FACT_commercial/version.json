@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.3.1",
-  "releaseDate": "2026-06-12",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.3.1.exe",
+  "version": "1.0.3.2",
+  "releaseDate": "2026-06-17",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.3.2.exe",
   "changelog": [
-    "1.0.3.1 버전:  " , "위젯 속성 관련 오류 수정"
+    "1.0.3.2 버전:  " , "data 조회 최적화 코드 반영"
   ],
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
 }
