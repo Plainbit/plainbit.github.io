@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.3.2",
-  "releaseDate": "2026-06-17",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.3.2.exe",
+  "version": "1.0.3.3",
+  "releaseDate": "2026-06-18",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.3.3.exe",
   "changelog": [
-    "1.0.3.2 버전:  " , "data 조회 최적화 코드 반영"
+    "1.0.3.3 버전:  " , "속성창에 preview 기능 추가"
   ],
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
 }
