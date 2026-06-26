@@ -1,9 +1,9 @@
 ﻿{
-  "version": "1.0.3.4",
-  "releaseDate": "2026-06-19",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.3.4.exe",
+  "version": "1.0.3.5",
+  "releaseDate": "2026-06-26",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.0.3.5.exe",
   "changelog": [
-    "1.0.3.4 버전:  " , "대용량 data 조회를 위한 로직 속도 개선"
+    "1.0.3.5 버전:  " , "LLM 에 의한 조회 속도를 위한 하네스 엔지니어링"
   ],
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
 }
