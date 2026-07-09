@@ -1,9 +1,23 @@
 ﻿{
-  "version": "1.1.1.1",
-  "releaseDate": "2026-07-06",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.1.1.1.exe",
+  "version": "1.1.1.2",
+  "releaseDate": "2026-07-09",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.1.1.2.exe",
   "changelog": [
-    "1.1.1.1 버전:  " , "AI 개선 및 UI 개선"
+    "1.1.1.2 버전:  " , "AI 개선 및 수집기 업데이트 로직 추가 "
   ],
+  "sha256":  "2fbace0e2dae0f83183009671c42d6d06f1b68dc388f0293ae14ab7488056c46",
+  "size":  57599480,
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
+  ,
+  "assets": [
+    {
+		"id": "collector",
+		"name": "FACT collector",
+		"version": "0.0.0.2",
+		"type": "application",
+		"downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/assets/0.0.0.2/FACT_Standard_Commercial.exe",
+		"sha256":  "593d53d70eb1721d270fefb25721509e0773658573186ebb43f0def7f2a304af",
+		"size":  94280416
+    }   
+	]
 }
