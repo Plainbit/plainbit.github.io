@@ -1,23 +1,23 @@
 ﻿{
-  "version": "1.1.1.2",
-  "releaseDate": "2026-07-09",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.1.1.2.exe",
+  "version": "1.1.2.0",
+  "releaseDate": "2026-07-14",
+  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.1.2.0.exe",
   "changelog": [
-    "1.1.1.2 버전:  " , "AI 개선 및 수집기 업데이트 로직 추가 "
+    "1.1.2.0 버전:  " , "암복호화 적용"
   ],
-  "sha256":  "2fbace0e2dae0f83183009671c42d6d06f1b68dc388f0293ae14ab7488056c46",
-  "size":  57599480,
+  "sha256":  "fd0b1e56bf963ecd274b0f1511eac80a084c3e9497fddea86a6ae22b527913bd",
+    "size":  57679632,
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
   ,
   "assets": [
     {
 		"id": "collector",
 		"name": "FACT collector",
-		"version": "0.0.0.2",
+		"version": "0.0.0.4",
 		"type": "application",
-		"downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/assets/0.0.0.2/FACT_Standard_Commercial.exe",
-		"sha256":  "593d53d70eb1721d270fefb25721509e0773658573186ebb43f0def7f2a304af",
-		"size":  94280416
+		"downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/0.0.0.4/FACT_Standard_Commercial.exe",
+		"sha256":  "045ccbeb4493ffeb98f5d0dfe40b658a0b1b1a56c01fb2dc3dba92d9a4025748",
+		"size":  597186136
     }   
 	]
 }
