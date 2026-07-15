@@ -1,12 +1,12 @@
 ﻿{
   "version": "1.1.2.0",
-  "releaseDate": "2026-07-14",
+  "releaseDate": "2026-07-15",
   "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.1.2.0.exe",
   "changelog": [
     "1.1.2.0 버전:  " , "암복호화 적용"
   ],
-  "sha256":  "1727b1e90a724695ee935c40ddcc8e06e350a291adac43bb6043610f900ccee0",
-    "size":  57680752,
+  "sha256":  "c76c36fa1dd4c8e98d2bcb8797ebed88c18d6cb08fcaa735bab0a1c4522e1d3f",
+  "size":  57680752,
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
   ,
   "assets": [
