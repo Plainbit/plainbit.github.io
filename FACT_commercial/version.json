@@ -1,11 +1,13 @@
 ﻿{
-  "version": "1.1.2.2",
-  "releaseDate": "2026-07-31",
-  "downloadUrl": "https://plainbit.github.io/FACT_commercial/Download/FACT_commercial_1.1.2.2.exe",
+  "version": "1.1.2.3",
+  "releaseDate": "2026-08-03",
+  "downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/1.1.2.3/FACT_commercial.exe",
   "changelog": [
-    "1.1.2.2 버전:  " , "UI 치명적인 버그 수정 및 컴포넌트 업데이트"
+    "1.1.2.3 버전:  ",
+    "위젯으로 전달 되는 파라미터가 잘못되는 현상 수정",
+    "AI chating 으로 포커스 되어 있을때 Enter 를 눌렀을때 자동 전송 되도록 수정"
   ],
-  "sha256":  "76d45813e324a00affd5f14fd7af21c6f603a03682056374bb57290de713d420",
+  "sha256":  "9ec3c88a95bf015da430eee0e43066e58812108c393ad467fe1c0d5f8bd238a9",
   "size":  57864488,
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
   ,
