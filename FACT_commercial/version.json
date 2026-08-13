@@ -1,14 +1,14 @@
 ﻿{
-  "version": "1.1.2.3",
-  "releaseDate": "2026-08-03",
-  "downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/1.1.2.3/FACT_commercial.exe",
+  "version": "1.1.2.4",
+  "releaseDate": "2026-08-13",
+  "downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/1.1.2.4/FACT_commercial.exe",
   "changelog": [
-    "1.1.2.3 버전:  ",
-    "위젯으로 전달 되는 파라미터가 잘못되는 현상 수정",
-    "AI chating 으로 포커스 되어 있을때 Enter 를 눌렀을때 자동 전송 되도록 수정"
+    "1.1.2.4 버전:  ",
+    "AI 추론 개선 및 컴포넌트 업데이트",
+    "artifact 메뉴에서 검색된 메뉴가 선택이 안되는 문제 수정"
   ],
-  "sha256":  "9ec3c88a95bf015da430eee0e43066e58812108c393ad467fe1c0d5f8bd238a9",
-  "size":  57864488,
+  "sha256":  "58dd0fd9ae8de882936b9ed70ee3d753cb117a2a19ad41aff0bb05e17f363bef",
+  "size":  58316792,
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
   ,
   "assets": [
