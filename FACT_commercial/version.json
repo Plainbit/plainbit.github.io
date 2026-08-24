@@ -1,14 +1,13 @@
 ﻿{
-  "version": "1.1.2.5",
+  "version": "1.1.3.0",
   "releaseDate": "2026-08-24",
-  "downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/1.1.2.5/GrabbitAnalyzer.exe",
+  "downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/1.1.3.0/GrabbitAnalyzer.exe",
   "changelog": [
-    "1.1.2.5 버전:  ",
-    "대용량 테이블 조회 시 메모리 누수·과다 사용 문제 수정 (이슈 #17)",
-    "LLM 토큰 예산 자동 설정 및 응답 잘림 안내 추가",
-    "추론 정규화 로직 및 위젯 스레드 안정성 개선"
+    "1.1.3.0 버전:  ",
+    "제품명 GRABBIT Analyzer 로 변경 (실행 파일명 GrabbitAnalyzer.exe)",
+    "컴포넌트 업데이트"
   ],
-  "sha256":  "becff46a018b01174d13f64e1bb2af6988860e306556d40a629e0ed7e8223087",
+  "sha256":  "be3f43cf3ab83ab12df3f1df958e1374e8404ff4fab44673c3220887f1c5c283",
   "size":  58333176,
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
   ,
