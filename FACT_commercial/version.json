@@ -1,14 +1,15 @@
 ﻿{
-  "version": "1.1.2.4",
-  "releaseDate": "2026-08-13",
-  "downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/1.1.2.4/FACT_commercial.exe",
+  "version": "1.1.2.5",
+  "releaseDate": "2026-08-24",
+  "downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/1.1.2.5/GrabbitAnalyzer.exe",
   "changelog": [
-    "1.1.2.4 버전:  ",
-    "AI 추론 개선 및 컴포넌트 업데이트",
-    "artifact 메뉴에서 검색된 메뉴가 선택이 안되는 문제 수정"
+    "1.1.2.5 버전:  ",
+    "대용량 테이블 조회 시 메모리 누수·과다 사용 문제 수정 (이슈 #17)",
+    "LLM 토큰 예산 자동 설정 및 응답 잘림 안내 추가",
+    "추론 정규화 로직 및 위젯 스레드 안정성 개선"
   ],
-  "sha256":  "58dd0fd9ae8de882936b9ed70ee3d753cb117a2a19ad41aff0bb05e17f363bef",
-  "size":  58316792,
+  "sha256":  "becff46a018b01174d13f64e1bb2af6988860e306556d40a629e0ed7e8223087",
+  "size":  58333176,
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
   ,
   "assets": [
