@@ -1,0 +1,25 @@
+﻿{
+  "version": "1.1.2.4",
+  "releaseDate": "2026-08-13",
+  "downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/1.1.2.4/FACT_commercial.exe",
+  "changelog": [
+    "1.1.2.4 버전:  ",
+    "AI 추론 개선 및 컴포넌트 업데이트",
+    "artifact 메뉴에서 검색된 메뉴가 선택이 안되는 문제 수정"
+  ],
+  "sha256":  "58dd0fd9ae8de882936b9ed70ee3d753cb117a2a19ad41aff0bb05e17f363bef",
+  "size":  58316792,
+  "licenseKey": "FACT-TEST-1234-5678-9ABE"
+  ,
+  "assets": [
+    {
+		"id": "collector",
+		"name": "FACT collector",
+		"version": "0.0.0.6",
+		"type": "application",
+		"downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/0.0.0.6/FACT_Standard_Commercial.exe",
+		"sha256":  "7f5ed00f65030b5ed8a940022b69a550007588e1d0f3f82ddf46c83f78774e69",
+		"size":  597240376
+    }   
+	]
+}
