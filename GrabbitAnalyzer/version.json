@@ -14,7 +14,7 @@
   "assets": [
     {
 		"id": "collector",
-		"name": "FACT collector",
+		"name": "GRABBIT Collector",
 		"version": "0.0.0.7",
 		"type": "application",
 		"downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/0.0.0.7/GRABBIT_Collector.exe",
