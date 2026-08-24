@@ -15,11 +15,11 @@
     {
 		"id": "collector",
 		"name": "FACT collector",
-		"version": "0.0.0.6",
+		"version": "0.0.0.7",
 		"type": "application",
-		"downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/0.0.0.6/FACT_Standard_Commercial.exe",
-		"sha256":  "7f5ed00f65030b5ed8a940022b69a550007588e1d0f3f82ddf46c83f78774e69",
-		"size":  597240376
+		"downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/0.0.0.7/GRABBIT_Collector.exe",
+		"sha256":  "effce17584573f531394d64cf51c6066014356d4076095062970b3982a89c285",
+		"size":  597264968
     }   
 	]
 }
