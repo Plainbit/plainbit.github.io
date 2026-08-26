@@ -1,14 +1,16 @@
 ﻿{
-  "version": "1.1.3.0",
-  "releaseDate": "2026-08-24",
-  "downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/1.1.3.0/GrabbitAnalyzer.exe",
+  "version": "1.1.3.1",
+  "releaseDate": "2026-08-26",
+  "downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/1.1.3.1/GrabbitAnalyzer.exe",
   "changelog": [
-    "1.1.3.0 버전:  ",
-    "제품명 GRABBIT Analyzer 로 변경 (실행 파일명 GrabbitAnalyzer.exe)",
-    "컴포넌트 업데이트"
+    "1.1.3.1 버전:  ",
+    "복호화 임시 파일에 평문이 남는 문제 수정",
+    "재시작 시 마지막 DB/EDB 복원 실패 수정",
+    "위젯 종료 시 확인 다이얼로그 추가 (이슈 #20)",
+    "패키지 업데이트 및 컴포넌트 마이그레이션"
   ],
-  "sha256":  "be3f43cf3ab83ab12df3f1df958e1374e8404ff4fab44673c3220887f1c5c283",
-  "size":  58333176,
+  "sha256":  "8ba148b033d6b550612a07f24f1cc0448399d9a6cb191a9bdcafa4c39c111b78",
+  "size":  58333464,
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
   ,
   "assets": [
