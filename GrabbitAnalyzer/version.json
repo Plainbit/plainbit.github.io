@@ -1,16 +1,21 @@
 ﻿{
-  "version": "1.1.3.1",
-  "releaseDate": "2026-08-26",
-  "downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/1.1.3.1/GrabbitAnalyzer.exe",
+  "version": "1.1.3.2",
+  "releaseDate": "2026-09-09",
+  "downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/1.1.3.2/GrabbitAnalyzer.exe",
   "changelog": [
-    "1.1.3.1 버전:  ",
-    "복호화 임시 파일에 평문이 남는 문제 수정",
-    "재시작 시 마지막 DB/EDB 복원 실패 수정",
-    "위젯 종료 시 확인 다이얼로그 추가 (이슈 #20)",
-    "패키지 업데이트 및 컴포넌트 마이그레이션"
+    "1.1.3.2 버전:  ",
+    "AI 챗봇·추론 정확도 대폭 개선 (질의 정렬·기간 상한 유실, 집계 별칭 오류 등 결정적 보정 다수)",
+    "대시보드 케이스 워크스페이스 및 스냅샷 저장 기능 추가",
+    "반출 기능 일원화 및 출처 시트 추가, 대화 내용 HTML·PDF 반출 지원",
+    "차트 시간축 정확도 개선 및 이모지 라벨 표시 수정",
+    "위젯 시각화 3종 추가, 파이 차트 상위 N 자동 모드 지원",
+    "조회 화면 집계 푸시다운·필터 칩·셀 피벗 추가",
+    "관계 그래프 뷰 속성 및 애니메이션 재생 추가",
+    "검색·필터·복사 관련 사용성 개선 (이슈 #5 #6 #7 #8 #14 #21)",
+    "컴포넌트 업데이트"
   ],
-  "sha256":  "8ba148b033d6b550612a07f24f1cc0448399d9a6cb191a9bdcafa4c39c111b78",
-  "size":  58333464,
+  "sha256":  "52dca4b2deceab2acd81b199c956ea32894ef09e6555b9bb5d161e629d163907",
+  "size":  58585208,
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
   ,
   "assets": [
