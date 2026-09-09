@@ -80,7 +80,11 @@ GitHub Pages / GitHub Release로 서빙합니다.
 > 분석기 설치 파일은 더 이상 `Download/` 폴더에 커밋하지 않는다.
 > `plainbit.github.io`(public) 의 **GitHub Release asset** 으로 서빙한다 (수집기와 동일 방식).
 > `downloadUrl` 도 릴리스 asset 을 가리킨다.
-> (기존 `Download/` 의 과거 버전 파일과 그 다운로드 URL 은 그대로 보존한다.)
+>
+> **`Download/` 폴더는 제거되었다 (2026-09-09).** 2.5 GB(설치 파일 50개)가 Pages 빌드마다
+> 통째로 재업로드되어 배포가 지나치게 느려졌기 때문이다. 폴더를 다시 만들지 않는다.
+> 과거 버전 파일이 필요하면 **git 히스토리에서 복구**한다
+> (`git checkout 3628bdb -- FACT_commercial/Download`).
 
 ### 0. 사전 확인
 - `publish\GrabbitAnalyzer.exe` FileVersion = `<VER>` 확인.
@@ -261,7 +265,7 @@ gh release create <VER> \
 - 메인 빌드: `C:\Project\FACT_commercial\FACT_commercial\bin\Release\net9.0\win-x64\publish`
 - 수집기 빌드: `C:\Project\FACT_Standard-CSharp-version-\src\FACT_Standard_Commercial_V_CShap\bin\Release\net10.0-windows\win-x64\publish`
 - 메타데이터: `GrabbitAnalyzer/version.json`(신규 클라이언트) + `FACT_commercial/version.json`(기존 설치본) — **둘을 같은 내용으로 유지**
-- 메인 설치 파일: 신규 버전은 `plainbit.github.io` 릴리스 asset (`Download/` 는 1.1.2.2 이하 과거 버전 보관용)
+- 메인 설치 파일: `plainbit.github.io` 릴리스 asset (`Download/` 폴더는 2026-09-09 제거 — Pages 배포 지연)
 - 메인 태그/릴리스: `https://github.com/Plainbit/plainbit.github.io`(공개 서빙 asset) + `https://github.com/Plainbit/FACT_Expert_Commercial`(제품 기록/changelog)
 - 수집기 태그/릴리스 & Pages(origin): `https://github.com/Plainbit/plainbit.github.io`
 - BitCollector_CLI 빌드: `...\bitCollector_cli\BitCollector_CLI\x64\Release`(BitCollector_CLI.exe) + `...\x64\Release_SDS`(BitCollector_sds_CLI.exe)
