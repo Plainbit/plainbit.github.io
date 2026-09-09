@@ -10,6 +10,13 @@ GitHub Pages / GitHub Release로 서빙합니다.
 > **기존 설치본은 여전히 `FACT_commercial/version.json` 을 폴링한다 — 두 파일을 같은 내용으로 갱신한다.**
 > 저장소명(`plainbit.github.io`·`FACT_Expert_Commercial`)과 빌드 폴더 경로는 바뀌지 않았다.
 > **이미 배포된 과거 릴리스의 asset 이름(`FACT_commercial.exe`)과 그 downloadUrl 은 손대지 않는다.**
+>
+> **수집기 리네임 (2026-08-24, 이슈 #19 후속).** 수집기 실행 파일명도
+> `FACT_Standard_Commercial.exe` → **`GRABBIT_Collector.exe`** 로 바뀌었다.
+> 빌드 폴더 경로(`FACT_Standard-CSharp-version-\...`)는 바뀌지 않았다.
+> **`0.0.0.6` 이하 기존 릴리스 asset 은 여전히 `FACT_Standard_Commercial.exe` 이름으로 올라가 있다 —
+> version.json 의 `collector.downloadUrl` 은 새 버전을 릴리스할 때 비로소 새 이름으로 바뀐다.
+> 그 전에 URL 만 고치면 클라이언트가 404 를 받는다.**
 
 ## 배포 트리거 (두 종류)
 
@@ -19,7 +26,7 @@ GitHub Pages / GitHub Release로 서빙합니다.
 | 트리거 문구 | 대상 | 소스 exe | 태그 저장소 | version.json 갱신 |
 |---|---|---|---|---|
 | **"분석기 배포"**, **"메인 배포"**, **"GRABBIT Analyzer 배포"**(구 "FACT_commercial 배포") | 분석기 = 메인 앱 | `GrabbitAnalyzer.exe` | `plainbit.github.io`(공개 asset) + `FACT_Expert_Commercial`(기록) | **top-level 필드 — `GrabbitAnalyzer/`·`FACT_commercial/` 두 version.json 모두** |
-| **"수집기 배포"** | 수집기(Collector) | `FACT_Standard_Commercial.exe` | `Plainbit/plainbit.github.io` | **`assets[]` 의 `collector` 항목** |
+| **"수집기 배포"** | 수집기(Collector) | `GRABBIT_Collector.exe` | `Plainbit/plainbit.github.io` | **`assets[]` 의 `collector` 항목** |
 | **"수집기·분석기 같이 배포"**, **"둘 다 배포"** | 분석기 + 수집기 | 위 두 exe 모두 | 두 저장소 모두 | **top-level + `collector` 모두** |
 | **"BitCollector_CLI 배포"** | BitCollector CLI (exe 2종) | `BitCollector_CLI.exe` + `BitCollector_sds_CLI.exe` | `Plainbit/bitCollector_cli` | **갱신 없음** |
 
@@ -40,6 +47,21 @@ GitHub Pages / GitHub Release로 서빙합니다.
 - 되돌리기 어려운 외부 작업(GitHub 릴리스 생성, push) **실행 전** 최종 요약(버전, sha256, size, changelog)을 보여주고 확인을 받는다.
 - 파일 삭제/덮어쓰기 금지. 기존 버전 파일·릴리스는 보존한다.
 - 버전 불일치나 이미 존재하는 태그 발견 시 자동 진행하지 말고 사용자에게 보고한다.
+
+## 릴리스 제목·본문 규칙 (`plainbit.github.io`)
+
+`plainbit.github.io` 릴리스 목록에는 **분석기와 수집기가 번갈아 쌓인다.**
+제목이 버전 숫자뿐이면 목록에서 어느 제품의 릴리스인지 구분할 수 없다
+(`1.1.3.2` / `0.0.0.8` / `1.1.3.1` / `0.0.0.7` ... 처럼 숫자만 나열된다).
+
+- **태그명은 반드시 `<VER>` 숫자만** 쓴다. `version.json` 의 `downloadUrl`
+  (`releases/download/<VER>/...`) 이 태그명에 직접 묶여 있어 바꾸면 클라이언트가 404 를 받는다.
+  바꾸는 것은 **릴리스 제목뿐이다.**
+- **릴리스 제목에 제품명을 붙인다.** 분석기 `GRABBIT Analyzer <VER>`, 수집기 `GRABBIT Collector <VER>`.
+- **본문(`--notes`)은 비워 둔다** (2026-09-09 사용자 지시). changelog 는 `version.json` 에만 넣는다.
+  `FACT_Expert_Commercial` 쪽 릴리스 본문(compare 링크)은 기존대로 유지한다 — A-3 참고.
+- **이미 만들어진 과거 릴리스의 제목은 소급해서 고치지 않는다** (2026-09-09 사용자 지시).
+  이 규칙은 **이후 신규 릴리스에만** 적용한다.
 
 ---
 
@@ -80,11 +102,12 @@ GitHub Pages / GitHub Release로 서빙합니다.
 - `assets[]`, `licenseKey` 등 나머지는 그대로 유지.
 
 ### 2. GitHub 릴리스 — 공개 서빙 asset (`Plainbit/plainbit.github.io`)
-- 태그명 = 릴리스명 = `<VER>`, 본문 없음. asset = `GrabbitAnalyzer.exe`.
+- 태그명 = `<VER>` (숫자만 — `downloadUrl` 이 여기 묶여 있다).
+- 릴리스명 = `GRABBIT Analyzer <VER>`, 본문 없음. asset = `GrabbitAnalyzer.exe`.
 ```bash
 gh release create <VER> \
   -R Plainbit/plainbit.github.io \
-  --title "<VER>" \
+  --title "GRABBIT Analyzer <VER>" \
   --notes "" \
   --target master \
   "C:/Project/FACT_commercial/FACT_commercial/bin/Release/net9.0/win-x64/publish/GrabbitAnalyzer.exe"
@@ -115,7 +138,7 @@ gh release create <VER> \
 ## 입력 소스
 빌드 폴더:
 `C:\Project\FACT_Standard-CSharp-version-\src\FACT_Standard_Commercial_V_CShap\bin\Release\net10.0-windows\win-x64\publish`
-- `FACT_Standard_Commercial.exe` — FileVersion 을 배포 버전 `<VER>` 로 사용
+- `GRABBIT_Collector.exe` — FileVersion 을 배포 버전 `<VER>` 로 사용
 - `version_info.json` — `sha256`, `size`
 
 > 메인 앱과 달리 `Download/` 폴더에 복사하지 않는다.
@@ -124,19 +147,20 @@ gh release create <VER> \
 ## 절차 (`<VER>` 예: `0.0.0.5`)
 
 ### 0. 사전 확인
-- `publish\FACT_Standard_Commercial.exe` FileVersion = `<VER>` 확인.
+- `publish\GRABBIT_Collector.exe` FileVersion = `<VER>` 확인.
 - `version.json` 의 `assets[]` 중 `id == "collector"` 항목의 현재 `version` 과 비교 (같으면 재배포 여부 확인).
 - 이미 `<VER>` 태그 존재 여부 확인:
   `gh api repos/Plainbit/plainbit.github.io/tags --jq '.[].name'`
 
 ### 1. GitHub 태그 + 릴리스 (`Plainbit/plainbit.github.io`)
-- 태그명 = 릴리스명 = `<VER>`, 본문 없음 (기존 `0.0.0.4` 릴리스 규칙과 동일)
+- 태그명 = `<VER>` (숫자만 — `collector.downloadUrl` 이 여기 묶여 있다).
+- 릴리스명 = `GRABBIT Collector <VER>`, 본문 없음.
 ```bash
 gh release create <VER> \
   -R Plainbit/plainbit.github.io \
-  --title "<VER>" \
+  --title "GRABBIT Collector <VER>" \
   --notes "" \
-  "C:/Project/FACT_Standard-CSharp-version-/src/FACT_Standard_Commercial_V_CShap/bin/Release/net10.0-windows/win-x64/publish/FACT_Standard_Commercial.exe"
+  "C:/Project/FACT_Standard-CSharp-version-/src/FACT_Standard_Commercial_V_CShap/bin/Release/net10.0-windows/win-x64/publish/GRABBIT_Collector.exe"
 ```
 > `gh release create` 가 로컬에서 태그를 만들려면 대상 저장소에 대응하는 커밋이 필요할 수 있다.
 > 문제가 생기면 `--target master` 를 붙인다.
@@ -145,10 +169,13 @@ gh release create <VER> \
 `GrabbitAnalyzer/version.json` 과 `FACT_commercial/version.json` 에서
 `assets[]` 중 `id == "collector"` 항목만 수정 (top-level 및 다른 자산은 그대로):
 
-> 수집기 exe(`FACT_Standard_Commercial.exe`)는 **이번 리네임 대상이 아니다.** 이슈 #19 의
-> `FACT_standard → GRABBIT Collector` 는 아직 반영되지 않았다 — 파일명을 임의로 바꾸지 마라.
+> 수집기 exe 는 `FACT_Standard_Commercial.exe` → **`GRABBIT_Collector.exe`** 로 리네임되었다(이슈 #19 후속).
+> 새 버전의 `downloadUrl` 은 새 이름을 쓴다. **과거 버전(`0.0.0.6` 이하)의 downloadUrl 은 손대지 않는다** —
+> 그 릴리스에 올라간 asset 이름은 여전히 `FACT_Standard_Commercial.exe` 다.
+- `name` — `GrabbitAnalyzer/version.json` 은 **`GRABBIT Collector`**, `FACT_commercial/version.json` 은 **`FACT collector`** 그대로 둔다.
+  표시명은 두 파일이 의도적으로 다르다(2026-08-24 사용자 확인). 같게 맞추지 않는다.
 - `version` = `<VER>`
-- `downloadUrl` = `https://github.com/Plainbit/plainbit.github.io/releases/download/<VER>/FACT_Standard_Commercial.exe`
+- `downloadUrl` = `https://github.com/Plainbit/plainbit.github.io/releases/download/<VER>/GRABBIT_Collector.exe`
 - `sha256` / `size` = `version_info.json` 값
 
 ### 3. 커밋 & 푸시 (`plainbit.github.io`)
@@ -173,7 +200,8 @@ gh release create <VER> \
 ### 1. GitHub 릴리스 생성 (분석기 2건 + 수집기 1건)
 - 분석기 공개 asset: A-2 대로 `plainbit.github.io` 에 `<VER_A>` 릴리스 + `GrabbitAnalyzer.exe`.
 - 분석기 제품 기록: A-3 대로 `FACT_Expert_Commercial` 에 `<VER_A>` 릴리스 + `GrabbitAnalyzer.exe`.
-- 수집기: B-1 대로 `plainbit.github.io` 에 `<VER_B>` 릴리스 + `FACT_Standard_Commercial.exe`.
+- 수집기: B-1 대로 `plainbit.github.io` 에 `<VER_B>` 릴리스 + `GRABBIT_Collector.exe`.
+> 릴리스 제목은 A-2 · B-1 규칙을 그대로 따른다 (제목에 제품명, 본문은 비움).
 
 ### 2. version.json 한 번에 갱신 — **두 경로 모두**
 - top-level: A-1 대로 (`version`=`<VER_A>`, `releaseDate`, `downloadUrl`(공개 asset), `sha256`, `size`, `changelog`).
