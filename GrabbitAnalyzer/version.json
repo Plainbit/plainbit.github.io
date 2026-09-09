@@ -17,11 +17,11 @@
     {
 		"id": "collector",
 		"name": "GRABBIT Collector",
-		"version": "0.0.0.7",
+		"version": "0.0.0.8",
 		"type": "application",
-		"downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/0.0.0.7/GRABBIT_Collector.exe",
-		"sha256":  "effce17584573f531394d64cf51c6066014356d4076095062970b3982a89c285",
-		"size":  597264968
+		"downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/0.0.0.8/GRABBIT_Collector.exe",
+		"sha256":  "035d566a590bfdde4cd1702d35d0c2f6448306dc2453455d6e1f127f3f0ed4bf",
+		"size":  413980416
     }   
 	]
 }
