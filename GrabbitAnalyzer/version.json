@@ -1,6 +1,6 @@
 ﻿{
   "version": "1.1.3.3",
-  "releaseDate": "2026-11-05",
+  "releaseDate": "2026-11-06",
   "downloadUrl": "https://github.com/Plainbit/plainbit.github.io/releases/download/1.1.3.3/GrabbitAnalyzer.exe",
   "changelog": [
     "1.1.3.3 버전:  ",
@@ -12,8 +12,8 @@
     "보안 점검 반영 (읽기 전용 연결, 첨부 경로 처리, 리포트 내 키 마스킹)",
     "컴포넌트 업데이트"
   ],
-  "sha256":  "0e0464cda77724cb83a7043f1738524f4a0d3f6f1ded7b39816a438aeadeac54",
-  "size":  58973216,
+  "sha256":  "f3afcddb6fec93746efc420650ac08e983d181a363e1a294cd53159a0c813723",
+  "size":  58983512,
   "licenseKey": "FACT-TEST-1234-5678-9ABE"
   ,
   "assets": [
