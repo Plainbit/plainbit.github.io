@@ -69,7 +69,7 @@ GitHub Pages / GitHub Release로 서빙합니다.
 
 ## 입력 소스
 빌드 폴더:
-`C:\Project\FACT_commercial\FACT_commercial\bin\Release\net9.0\win-x64\publish`
+`C:\Project\FACT_commercial\FACT_commercial\bin\Release\net10.0\win-x64\publish`
 - `GrabbitAnalyzer.exe` — FileVersion 을 배포 버전 `<VER>` 로 사용
   (빌드 폴더 경로는 그대로다 — 프로젝트 폴더명은 리네임하지 않았다)
 - `version_info.json` — `sha256`, `size`
@@ -114,7 +114,7 @@ gh release create <VER> \
   --title "GRABBIT Analyzer <VER>" \
   --notes "" \
   --target master \
-  "C:/Project/FACT_commercial/FACT_commercial/bin/Release/net9.0/win-x64/publish/GrabbitAnalyzer.exe"
+  "C:/Project/FACT_commercial/FACT_commercial/bin/Release/net10.0/win-x64/publish/GrabbitAnalyzer.exe"
 ```
 > 여기 asset 이 `downloadUrl` 의 실제 다운로드 대상이다.
 > `Download/` 폴더에는 복사하지 않는다.
@@ -127,7 +127,7 @@ gh release create <VER> \
   -R Plainbit/FACT_Expert_Commercial \
   --title "<VER> 배포" \
   --notes "**Full Changelog**: https://github.com/Plainbit/FACT_Expert_Commercial/compare/<PREV_VER>...<VER>" \
-  "C:/Project/FACT_commercial/FACT_commercial/bin/Release/net9.0/win-x64/publish/GrabbitAnalyzer.exe"
+  "C:/Project/FACT_commercial/FACT_commercial/bin/Release/net10.0/win-x64/publish/GrabbitAnalyzer.exe"
 ```
 
 ### 4. 커밋 & 푸시 (`plainbit.github.io`)
@@ -262,7 +262,7 @@ gh release create <VER> \
 ---
 
 ## 참고 경로 / 저장소
-- 메인 빌드: `C:\Project\FACT_commercial\FACT_commercial\bin\Release\net9.0\win-x64\publish`
+- 메인 빌드: `C:\Project\FACT_commercial\FACT_commercial\bin\Release\net10.0\win-x64\publish`
 - 수집기 빌드: `C:\Project\FACT_Standard-CSharp-version-\src\FACT_Standard_Commercial_V_CShap\bin\Release\net10.0-windows\win-x64\publish`
 - 메타데이터: `GrabbitAnalyzer/version.json`(신규 클라이언트) + `FACT_commercial/version.json`(기존 설치본) — **둘을 같은 내용으로 유지**
 - 메인 설치 파일: `plainbit.github.io` 릴리스 asset (`Download/` 폴더는 2026-09-09 제거 — Pages 배포 지연)
